@@ -18,18 +18,20 @@ function convert(number) {
   let romanHarf = "";
   let newNumber = number;
   for (let i = 0; i < latinandroman.length; i++) {
-    if (latinandroman[i].latin <= number) {
+    if (number > 3999 || number < 1) {
+      window.alert("lütfen 1 ile 3999 arasında bir sayı giriniz");
+      break;
+    } else if (latinandroman[i].latin <= number) {
       number = number - latinandroman[i].latin;
 
       romanHarf = romanHarf + latinandroman[i].roman;
 
       i--;
     }
+    document.getElementById("roman").value = romanHarf;
+    console.log(`my number latin ${newNumber} is ${romanHarf} in Roman alfabe`);
   }
-  document.getElementById("roman").value = romanHarf;
-  console.log(`my number latin ${newNumber} is ${romanHarf} in Roman alfabe`);
 }
-
 document.getElementById("convert").addEventListener("click", function () {
   let number = document.getElementById("latin").value;
 
