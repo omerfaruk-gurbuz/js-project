@@ -33,17 +33,15 @@ a {
   font-size: 20px;
 }
 
-.latin,
-.roman {
-  text-align: center;
-  padding: 15px 30 px;
-}
+
 input {
   border: none;
   padding: 1rem;
   border-radius: 20px;
   font-size: larger;
   font-weight: 700;
+  text-align: center;
+  padding: 15px 30 px;
 }
 
 .numbers {
