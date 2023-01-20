@@ -18,9 +18,12 @@ function convert(number) {
   let romanHarf = "";
   let newNumber = number;
   for (let i = 0; i < latinandroman.length; i++) {
-    if (number > 3999 || number < 1) {
-      window.alert("lütfen 1 ile 3999 arasında bir sayı giriniz");
-      break;
+    if (number > 3999) {
+      window.alert("lütfen 4000'den küçük bir değer giriniz");
+      return;
+    // } else if (1 > number) {  //! burda sıkıntı var 
+    //   window.alert("lütfen 0'dan büyük bir değer giriniz");
+    //   return;
     } else if (latinandroman[i].latin <= number) {
       number = number - latinandroman[i].latin;
 
