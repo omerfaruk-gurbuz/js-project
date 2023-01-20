@@ -27,7 +27,7 @@ function convert(number) {
     }
   }
   document.getElementById("roman").value = romanHarf;
-  console.log(`my number ${newNumber} is ${romanHarf} in Roman alfabe`);
+  console.log(`my number latin ${newNumber} is ${romanHarf} in Roman alfabe`);
 }
 
 document.getElementById("convert").addEventListener("click", function () {
