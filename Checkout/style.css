@@ -11,7 +11,7 @@ body{
     /* display: flex;
     flex-direction: column; */
     justify-content: start;
-    background-color: rgba(0, 255, 170, 0.235);
+    background-color: rgba(206, 149, 131, 0.327);
     width: 90%;
     max-width: 400px;
     border-radius: 20px;
@@ -81,3 +81,10 @@ img{
    margin-bottom:0.5rem ;
 
 }
+strong{
+    color: orangered;
+}
+
+.al{
+    display: flex;
+   justify-content: space-between;}

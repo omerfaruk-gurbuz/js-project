@@ -9,86 +9,33 @@
   </head>
   <body>
     <div class="container">
-      <div class="box">
+      <div id="box">
         <div class="product">
-          <img src="./images/photo1.png" alt="" /> 
+          <img src="./images/photo1.png" alt="" />
           <div class="elements">
             <p>Vintage Backbag</p>
             <p>$26.98 <del>$34</del></p>
             <div class="quantity">
-              <span class="minus">-</span>
-              <span class="amount">1</span>
-              <span class="plus">+</span>
+              <button>
+                <i class="fas fa-minus">-</i>
+              </button>
+              <p id="product-removal">1</p>
+              <button>
+                <i class="fas fa-plus">+</i>
+              </button>
             </div>
             <div>
               <button class="btn-remove">remove</button>
             </div>
-          
-          <div>
-            <span>Product Total :</span>
-            <span id="bag-product" class="product-total"></span>
-          </div>
-        </div>
-        </div>
-        <div class="product">
-          <img src="./images/photo2.png" alt="" />
-          <div class="elements">
-            <p>Levi Shoes:</p>
-            <p>$49.9 <del>$59.98</del></p>
-            <div class="quantity">
-              <span class="minus">-</span>
-              <span class="amount">1</span>
-              <span class="plus">+</span>
-            </div>
-            <div>
-              <button class="btn-remove">remove</button>
-            </div>
-            <div>
-              <span>Product Total :</span>
-              <span id="shoes-product" class="product-total"></span>
-            </div>
-          </div>
-        </div>
-        <div class="product">
-          <img src="./images/photo3.jpg" alt="" />
-          <div class="elements">
-            <p>Antique Clock :</p>
-            <p>$75.99 <del>$94.99</del></p>
-            <div class="quantity">
-              <span class="minus">-</span>
-              <span class="amount">1</span>
-              <span class="plus">+</span>
-            </div>
-            <div>
-              <button class="btn-remove">remove</button>
-            </div>
-            <div>
-              <span>Product Total :</span>
-              <span id="clock-product" class="product-total"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="calc">
-        <div class="foot">
-        <span id="subtotal" class="buttom-subtotal">Subtotal:</span>
-        <span>0</span>
-      </div>
-      <div class="foot">
-        <span id="tax" class="buttom-tax">Tax("%18"):</span> <span>0</span>
-      </div>
-      <div class="foot">
-        <span id="shipping" class="buttom-shipping">Shipping:</span>
-        <span>0</span>
-      </div>
-      <div class="foot">
-        <span id="total" class="buttom-total"><b>Total:</b> </span> <span>0</span>
-      </div>
-    </div>
-      
-    </div>
 
- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div>
+              <span>Product Total :</span>
+              <span id="bag-product" class="product-total"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
