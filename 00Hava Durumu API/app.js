@@ -5,6 +5,8 @@ const date = document.querySelector(".date");
 const wind = document.querySelector(".wind");
 const weather = document.querySelector(".weather");
 
+
+
 button.addEventListener("click", (e) => {
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=2fbafbe3eb671e5aaa277f9324a67ddf`
