@@ -8,24 +8,18 @@ const tbody = document.getElementById("tbody");
 const tr = document.getElementsByClassName("tr");
 
 button.addEventListener("click", (e) => {
-  addPerson();
-  e.preventDefault();
   newPerson();
+  e.preventDefault();
 });
 
-function addPerson() {
-  tbody.innerHTML = `<tr>
-  <td>${firstName.value}</td>
-  <td>${lastName.value}</td>
-  <td>C ${username.value}</td>
-  <td>${city.value}</td>
-  <td>${path.value}</td>
-  </tr> ;`;
-}
-
-function newPerson(newTodo) {
+function newPerson() {
   const tr = document.createElement("tr");
   tr.className = "tr";
-  tr.textContent = addPerson;
-  
+  tr.innerHTML = `<td>${firstName.value}</td>
+  <td>${lastName.value}</td>
+  <td>T${username.value}</td>
+  <td>${city.value}</td>
+  <td>${path.value}</td>`;
+
+  tbody.appendChild(tr);
 }
