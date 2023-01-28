@@ -7,6 +7,9 @@ a.addEventListener("click", (e) => {
   bgİmage();
   getdata(input.value);
   e.preventDefault();
+  if(counter==6){
+    counter -=6
+  }
 });
 
 function getdata(name) {
@@ -46,6 +49,5 @@ function bgİmage() {
     background-image: url(./img/${counter}.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
-}`;
+  }`;
 }
