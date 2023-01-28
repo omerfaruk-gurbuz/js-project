@@ -1,7 +1,7 @@
 const input = document.querySelector(".form-control");
 const a = document.querySelector("a");
 const style = document.getElementsByTagName("style");
-let counter = ""
+let counter = "";
 a.addEventListener("click", (e) => {
   counter++;
   bgİmage();
@@ -44,5 +44,6 @@ function getdata(name) {
 function bgİmage() {
   style.innerHTML = `body{
         background-image: url(./img/${counter}.jpg);
+        
     }`;
 }
