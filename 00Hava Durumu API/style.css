@@ -1,0 +1,32 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-size: larger;
+font-weight: 400;
+margin-top: 5%;
+background-image: var()}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width: 100%;
+}
+
+.tempature{
+    font-size: xx-large;
+}
+
+.weather{
+    margin-left: 5%;
+    margin-top: 4.1%;
+}
+
+.ms-0{
+    border-radius: 20px;
+}
