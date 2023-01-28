@@ -1,14 +1,14 @@
 const input = document.querySelector(".form-control");
 const a = document.querySelector("a");
 const style = document.querySelector("style");
-let counter = "";
+let counter = "1";
 a.addEventListener("click", (e) => {
   counter++;
   bgİmage();
   getdata(input.value);
   e.preventDefault();
-  if(counter==6){
-    counter -=6
+  if(counter==7){
+    counter -=7
   }
 });
 
