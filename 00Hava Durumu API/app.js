@@ -7,8 +7,8 @@ a.addEventListener("click", (e) => {
   bgİmage();
   getdata(input.value);
   e.preventDefault();
-  if(counter==7){
-    counter -=7
+  if (counter == 7) {
+    counter -= 7;
   }
 });
 
@@ -30,14 +30,13 @@ function getdata(name) {
       const tempature = document.querySelector(".tempature");
       const weather = document.querySelector(".weather");
       const count = document.querySelector(".country");
+      const iconP = document.querySelector(".iconP");
 
-      // const ico = document.querySelector(".icon")
       city.textContent = `${name}`;
       count.textContent = `${country}`;
       tempature.textContent = `${Math.floor(temp)}°C`;
       weather.textContent = `${description}`;
-      windi.textContent = `${speed}`;
-      // ico.textContent=`${icon}`
+      iconP.src = ` http://openweathermap.org/img/wn/${icon}@2x.png`;
 
       // console.log(data);
     })
