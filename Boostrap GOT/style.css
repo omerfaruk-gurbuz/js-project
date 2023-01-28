@@ -1,0 +1,17 @@
+.banner{
+    background: url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/bdb01b98d7e6db6b56fd8633cdc4c9f4d74c726f4385b7be7a2e469f22d50129._RI_V_TTW_.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: rgb(255, 255, 255);
+    height: calc(100%-55px);
+}
+
+.btn-lg{
+    margin-top: 10px;
+}
+
+.hane{
+   width:  150px;
+   border-radius: 00px;
+}
