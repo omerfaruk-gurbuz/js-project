@@ -95,6 +95,7 @@ function addTodo(e) {
     showAlert("success", "Todo Eklendi.");
   }
 
+  
   //storage ekleme
   e.preventDefault();
 }
