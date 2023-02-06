@@ -11,7 +11,7 @@ const scoreYou = document.getElementById("you")
 const scorePc = document.getElementById("pc")
 const domTopScore = document.querySelector(".top-score")
 
-
+ 
 // Modal Selectors
 const resultDiv = document.querySelector(".result-msg");
 const containerEl = document.querySelector(".container");
