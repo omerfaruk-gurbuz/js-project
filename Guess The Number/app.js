@@ -7,7 +7,7 @@ const p = document.querySelector(".p");
 const randoms = Math.random()*100;
 const randoma = Math.floor(randoms);
 
-
+    
 console.log(randoms);
 console.log(randoma);
 console.log(btn);
