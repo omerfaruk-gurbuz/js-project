@@ -1,5 +1,5 @@
 // Değişkenler Variables
-
+ 
 const yourChoice = document.getElementById("your-choice")
 const pcChoice = document.getElementById("pc-choice")
 const select = document.querySelector(".select")
