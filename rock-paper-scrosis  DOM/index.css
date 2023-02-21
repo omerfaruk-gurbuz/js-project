@@ -6,7 +6,7 @@
   margin: 0 px;
 }      
 body { 
-  background-color: #121212;
+  background-color:  #121212;
   font-family: "Comfortaa", cursive;
   /* height: 100vh; */
   display: flex; 
@@ -23,7 +23,7 @@ body {
   margin: auto;
   padding: 20px; 
 }
-.top {
+.top { 
   color: #fb778b;
   text-align: right;
   font-size: 20px;
