@@ -9,7 +9,7 @@ body {
   background-color:  #121212;
   font-family: "Comfortaa", cursive;
   /* height: 100vh; */
-  display: flex; 
+  display: flex;  
   flex-direction: column;
   justify-content: center;
 }  
