@@ -60,7 +60,7 @@ body {
   padding: 5px;
   margin: 5px;
   border-radius: 50%;
-}
+} 
 .select > div > img:hover {
   box-shadow: #aeadbb 0px 5px 20px;
 }
